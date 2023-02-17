@@ -24,27 +24,34 @@ export default class Navbar extends Component {
                                 <ul className="navbar-nav">
 
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/RestaurantPost">
+                                        <Link className="nav-link" to="/Restaurant">
                                             Restaurant
                                         </Link>
                                     </li>
 
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                     <Link className="nav-link" aria-current="page" to="/CategoryPost">
                                         Category
                                     </Link>
-                                    </li>
+                                    </li> */}
                                     
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link className="nav-link" to="/FoodItemPost">
                                             Food Item
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/sign-up">
                                             SignUp
                                         </Link>
                                     </li>
+
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/Login">
+                                            Login
+                                        </Link>
+                                    </li>
+
                                     {/* <li className="nav-item">
                                         <Link className="nav-link" to="/CategoryPost">
                                             CategoryPost
